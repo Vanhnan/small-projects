@@ -4,8 +4,8 @@ import time
 
 driver = Chrome()
 driver.get('https://ok.ru')
-driver.find_element_by_css_selector("#field_email").send_keys("+996505244477")
-driver.find_element_by_css_selector("#field_password").send_keys("hacker#1")
+driver.find_element_by_css_selector("#field_email").send_keys("+99611111111")
+driver.find_element_by_css_selector("#field_password").send_keys("password")
 driver.find_element_by_css_selector("#anonymPageContent > div.anonym_login_w.clearfix.anonym_login_w_redesign > div.anonym_login.h-mod > div:nth-child(3) > form > div.form-actions > div.mt-5x > input").click()
 
 driver.execute_script("window.open('https://ok.ru/profile/562038570725/photos');")
